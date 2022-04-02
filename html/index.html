@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <nav>
+      <a href="#lessons">lessons</a>
+      <a href="#register">Register</a>
+      <a href="https://v2.classroom.codelabsacademy.com" target="_blak">
+        CLA wesbsite</a
+      >
+      <a
+        href="https://v2.classroom.codelabsacademy.com/workshops"
+        target="_blak"
+      >
+        CLA wesbsite workshops</a
+      >
+    </nav>
+    <header>
+      <h1>HTML course</h1>
+    </header>
+    <main>
+      <section>
+        <a href="./css.html">
+          <img src="images/css.png" alt="css image" width="100" />
+        </a>
+        <p>
+          <strong>HTML</strong> Lorem ipsum dolor sit amet consectetur
+          adipisicing elit. Exercitationem laborum assumenda, enim praesentium
+          repellendus quas dolore sunt vero aliquam harum veniam voluptatibus
+          sed perferendis in! Repellendus et accusantium esse ullam.
+        </p>
+        <a href="js.html">
+          <img src="images/javascript.png" alt="css image" width="100" />
+        </a>
+        <hr />
+      </section>
+
+      <section>
+        <h2 id="lessons">Course lessons</h2>
+        <ol type="1">
+          <li>Fundamentals</li>
+          <li>
+            List
+            <ul type="disc">
+              <li>Ordered list</li>
+              <li>unordered list</li>
+            </ul>
+          </li>
+          <li>images</li>
+          <li>linkes</li>
+          <li>tables</li>
+          <li>forms</li>
+          <li>Semantic Elements</li>
+        </ol>
+        <hr />
+      </section>
+      <section>
+        <h1 id="register">Courses Schedule</h1>
+        <table border="1" cellpadding="10" cellspacing="5">
+          <caption>
+            This is the schedule
+          </caption>
+          <thead>
+            <tr>
+              <th>lesson</th>
+              <th>Itmes</th>
+              <th>Time</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td colspan="2">Fundamentals</td>
+              <td>15mins</td>
+            </tr>
+            <tr>
+              <td rowspan="2">Lists</td>
+              <td>unordered Lists</td>
+              <td rowspan="2">20mins</td>
+            </tr>
+            <tr>
+              <td>unordered list</td>
+            </tr>
+            <tr>
+              <td colspan="2">Images</td>
+              <td>10mins</td>
+            </tr>
+            <tr>
+              <td colspan="2">Links</td>
+              <td>10mins</td>
+            </tr>
+            <tr>
+              <td colspan="2">Tables</td>
+              <td>30mins</td>
+            </tr>
+            <tr>
+              <td colspan="2">Forms</td>
+              <td>20mins</td>
+            </tr>
+            <tr>
+              <td colspan="2">Semantic Elements</td>
+              <td>20mins</td>
+            </tr>
+          </tbody>
+        </table>
+        <hr />
+      </section>
+      <section>
+        <h1 id="register">Course Registrations</h1>
+        <div>
+          <label for="fullname">Fullname</label>
+          <input
+            placeholder="karina saidene"
+            type="text"
+            name="fullname"
+            id="fullname"
+          />
+          <label for="email">Email </label>
+          <input
+            placeholder="jk_saidene@esi.dz"
+            type="email"
+            name="email"
+            id="email"
+          />
+        </div>
+        <fieldset>
+          <legend>Information</legend>
+          <div>
+            <label for="birth">Birthday</label>
+            <input
+              placeholder="25/04/2001"
+              type="date"
+              name="birth date"
+              id="birthdate"
+            />
+            <label for="country">Country</label>
+            <select name="country" id="country">
+              <option value="Algeria">Algeria</option>
+              <option value="Tunisia">Tunisia</option>
+              <option value="Morocco">Morocco</option>
+            </select>
+          </div>
+          <div>
+            <input type="radio" name="sex" id="man" />
+            <label for="man">Man</label>
+            <input type="radio" name="sex" id="woman" />
+            <label for="woman">Woman</label>
+          </div>
+          <div>
+            <input type="checkbox" name="availability" id="availability" />
+            <label for="availability">availability</label>
+            <input type="range" name="hours" id="hours" />
+            <label for="hours">Hours</label>
+          </div>
+          <div>
+            <input type="submit" value="submit" />
+          </div>
+        </fieldset>
+
+        <hr />
+      </section>
+      <section>
+        <h1>Course overview</h1>
+        <iframe
+          width="560"
+          height="315"
+          src="https://www.youtube.com/embed/OvTEWv9bFpE"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+        ></iframe>
+        <hr />
+      </section>
+    </main>
+    <footer>
+      <a href="#"> scroll on top</a>
+    </footer>
+  </body>
+</html>
